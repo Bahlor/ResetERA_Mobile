@@ -1,0 +1,10 @@
+#headerProxy {
+    height: 67px !important;
+}
+#logoBlock {
+    display: none !important;
+}
+
+#header .pageContent  {
+    height: auto !important;
+}

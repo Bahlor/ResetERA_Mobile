@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		AA9BFFCD1FA1C88C0082DD7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFFCC1FA1C88C0082DD7D /* AppDelegate.swift */; };
-		AA9BFFCF1FA1C88C0082DD7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFFCE1FA1C88C0082DD7D /* ViewController.swift */; };
+		AA9BFFCF1FA1C88C0082DD7D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFFCE1FA1C88C0082DD7D /* MainViewController.swift */; };
 		AA9BFFD21FA1C88C0082DD7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9BFFD01FA1C88C0082DD7D /* Main.storyboard */; };
 		AA9BFFD41FA1C88C0082DD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9BFFD31FA1C88C0082DD7D /* Assets.xcassets */; };
 		AA9BFFD71FA1C88C0082DD7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9BFFD51FA1C88C0082DD7D /* LaunchScreen.storyboard */; };
+		AA9BFFE11FA1CA750082DD7D /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFFE01FA1CA750082DD7D /* config.swift */; };
+		AA9BFFE41FA1CDA30082DD7D /* additions.css in Resources */ = {isa = PBXBuildFile; fileRef = AA9BFFE31FA1CDA30082DD7D /* additions.css */; };
+		AAB6CB071FA49C300044484A /* ERAStylesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6CB061FA49C300044484A /* ERAStylesManager.swift */; };
+		AAB6CB171FAB36970044484A /* ERAStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6CB151FAB36970044484A /* ERAStylesViewController.swift */; };
+		AAB6CB181FAB36970044484A /* ERAStylesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB6CB161FAB36970044484A /* ERAStylesViewController.xib */; };
+		AAB6CB1C1FAB94D20044484A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6CB1B1FAB94D20044484A /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA9BFFC91FA1C88C0082DD7D /* ResetERA_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResetERA_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9BFFCC1FA1C88C0082DD7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA9BFFCE1FA1C88C0082DD7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA9BFFCE1FA1C88C0082DD7D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AA9BFFD11FA1C88C0082DD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9BFFD31FA1C88C0082DD7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9BFFD61FA1C88C0082DD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9BFFD81FA1C88C0082DD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9BFFDF1FA1C9640082DD7D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AA9BFFE01FA1CA750082DD7D /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		AA9BFFE31FA1CDA30082DD7D /* additions.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = additions.css; sourceTree = "<group>"; };
+		AAB6CB061FA49C300044484A /* ERAStylesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERAStylesManager.swift; sourceTree = "<group>"; };
+		AAB6CB151FAB36970044484A /* ERAStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERAStylesViewController.swift; sourceTree = "<group>"; };
+		AAB6CB161FAB36970044484A /* ERAStylesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ERAStylesViewController.xib; sourceTree = "<group>"; };
+		AAB6CB1B1FAB94D20044484A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +51,10 @@
 		AA9BFFC01FA1C88B0082DD7D = {
 			isa = PBXGroup;
 			children = (
+				AAB6CB1B1FAB94D20044484A /* StringExtension.swift */,
 				AA9BFFCB1FA1C88C0082DD7D /* ResetERA_Mobile */,
 				AA9BFFCA1FA1C88C0082DD7D /* Products */,
+				AA9BFFDE1FA1C9640082DD7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,51 @@
 		AA9BFFCB1FA1C88C0082DD7D /* ResetERA_Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				AAB6CB1A1FAB68380044484A /* downloaded */,
+				AAB6CB191FAB369B0044484A /* Controllers */,
+				AAB6CB051FA49A8E0044484A /* installed */,
 				AA9BFFCC1FA1C88C0082DD7D /* AppDelegate.swift */,
-				AA9BFFCE1FA1C88C0082DD7D /* ViewController.swift */,
+				AA9BFFCE1FA1C88C0082DD7D /* MainViewController.swift */,
 				AA9BFFD01FA1C88C0082DD7D /* Main.storyboard */,
 				AA9BFFD31FA1C88C0082DD7D /* Assets.xcassets */,
 				AA9BFFD51FA1C88C0082DD7D /* LaunchScreen.storyboard */,
 				AA9BFFD81FA1C88C0082DD7D /* Info.plist */,
+				AA9BFFE01FA1CA750082DD7D /* config.swift */,
+				AA9BFFE31FA1CDA30082DD7D /* additions.css */,
+				AAB6CB061FA49C300044484A /* ERAStylesManager.swift */,
 			);
 			path = ResetERA_Mobile;
+			sourceTree = "<group>";
+		};
+		AA9BFFDE1FA1C9640082DD7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9BFFDF1FA1C9640082DD7D /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB6CB051FA49A8E0044484A /* installed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = installed;
+			sourceTree = "<group>";
+		};
+		AAB6CB191FAB369B0044484A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAB6CB151FAB36970044484A /* ERAStylesViewController.swift */,
+				AAB6CB161FAB36970044484A /* ERAStylesViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AAB6CB1A1FAB68380044484A /* downloaded */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = downloaded;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +148,7 @@
 				TargetAttributes = {
 					AA9BFFC81FA1C88B0082DD7D = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA9BFFD71FA1C88C0082DD7D /* LaunchScreen.storyboard in Resources */,
+				AAB6CB181FAB36970044484A /* ERAStylesViewController.xib in Resources */,
+				AA9BFFE41FA1CDA30082DD7D /* additions.css in Resources */,
 				AA9BFFD41FA1C88C0082DD7D /* Assets.xcassets in Resources */,
 				AA9BFFD21FA1C88C0082DD7D /* Main.storyboard in Resources */,
 			);
@@ -136,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9BFFCF1FA1C88C0082DD7D /* ViewController.swift in Sources */,
+				AA9BFFE11FA1CA750082DD7D /* config.swift in Sources */,
+				AAB6CB171FAB36970044484A /* ERAStylesViewController.swift in Sources */,
+				AAB6CB1C1FAB94D20044484A /* StringExtension.swift in Sources */,
+				AAB6CB071FA49C300044484A /* ERAStylesManager.swift in Sources */,
+				AA9BFFCF1FA1C88C0082DD7D /* MainViewController.swift in Sources */,
 				AA9BFFCD1FA1C88C0082DD7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,12 +332,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 75E5JV6QBE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ResetERA_Mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cw-internetdienste.ResetERA-Mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.company.ResetERA-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +348,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 75E5JV6QBE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ResetERA_Mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cw-internetdienste.ResetERA-Mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.company.ResetERA-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
