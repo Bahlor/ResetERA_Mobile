@@ -144,7 +144,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "CW-Internetdienste";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					AA9BFFC81FA1C88B0082DD7D = {
 						CreatedOnToolsVersion = 9.1;
